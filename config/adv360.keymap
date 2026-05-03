@@ -45,7 +45,7 @@
             display-name = "Base";
             bindings = <
 &kp PIPE   &kp PLUS       &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp AMPERSAND  &tog 1                                                             &to 7      &kp AT_SIGN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp ASTERISK  &kp EXCLAMATION
-&kp TAB    &kp SQT        &kp COMMA         &kp PERIOD      &kp P                 &kp Y          &kp CAPS                                                           &none      &kp F        &kp G                  &kp C            &kp R              &kp L         &kp BSLH
+&kp TAB    &kp SQT        &kp COMMA         &kp PERIOD      &kp P                 &kp Y          &kp CAPS                                                           &mo 10     &kp F        &kp G                  &kp C            &kp R              &kp L         &kp BSLH
 &kp ESC    &kp A          &kp O             &kp E           &kp U                 &kp I          &mo 4     &lt 5 END  &kp HOME       &kp PG_UP     &lt 2 PAGE_DOWN  &mo 4      &kp D        &kp H                  &kp T            &kp N              &kp S         &kp MINUS
 &kp LSHFT  &kp SEMICOLON  &kp Q             &kp J           &kp K                 &kp X                               &kp LCTRL      &kp RCTRL                                 &kp B        &kp M                  &kp W            &kp V              &kp Z         &kp RSHFT
 &mo 3      &kp DOLLAR     &kp GRAVE         &kp TILDE       &lt 1 PERCENT                        &kp BSPC  &kp DEL    &mo 6          &kp LEFT_ALT  &kp ENTER        &kp SPACE               &kp HASH               &kp CARET        &kp SLASH          &kp EQUAL     &mo 3
@@ -108,11 +108,11 @@
 
         WinLa {
             bindings = <
-&none           &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)  &kp SYSREQ                                                          &none          &kp LG(NUMBER_6)  &kp LG(NUMBER_7)  &kp LG(NUMBER_8)  &kp LG(NUMBER_9)  &kp LG(NUMBER_0)  &kp LG(LS(C))
-&kp LG(TAB)     &none             &none             &none             &kp LG(P)         &none             &kp LC(SYSREQ)                                                      &none          &kp LG(F)         &none             &none             &kp LG(R)         &kp LG(RIGHT)     &none
-&kp LEFT_META   &kp LG(A)         &kp LG(O)         &kp LG(E)         &none             &none             &kp LS(SYSREQ)  &none  &none      &kp LG(LS(MINUS))  &none          &none          &kp LG(D)         &kp LG(LEFT)      &none             &kp LG(N)         &kp LG(S)         &none
-&kp LEFT_SHIFT  &kp LCTRL         &kp LG(Q)         &kp LG(DOWN)      &kp LG(UP_ARROW)  &kp LC(LG(X))                            &none      &kp LG(MINUS)                                    &kp LG(B)         &none             &kp LG(W)         &kp LG(V)         &kp RCTRL         &kp RIGHT_SHIFT
-&none           &none             &none             &none             &none                               &none           &none  &none      &none              &kp LG(ENTER)  &kp LG(SPACE)                    &none             &none             &none             &none             &none
+&kp LS(LA(LC(S)))  &kp LA(NUMBER_1)  &kp LA(NUMBER_2)  &kp LA(NUMBER_3)  &kp LA(NUMBER_4)  &kp LA(NUMBER_5)  &kp SYSREQ                                              &none          &kp LA(NUMBER_6)  &kp LA(NUMBER_7)  &kp LA(NUMBER_8)  &kp LA(NUMBER_9)  &kp LA(NUMBER_0)  &kp PRINTSCREEN
+&kp LG(TAB)        &none             &none             &none             &none             &none             &kp LC(SYSREQ)                                          &none          &kp LA(F)         &none             &none             &kp LA(R)         &kp LA(L)         &none
+&kp LEFT_META      &kp LA(A)         &kp LA(O)         &none             &none             &none             &kp LS(SYSREQ)  &none  &none      &none  &kp LA(Y)      &none          &kp LA(X)         &kp LA(H)         &kp LA(T)         &kp LA(N)         &kp LA(S)         &none
+&kp LEFT_SHIFT     &kp LCTRL         &kp LA(Q)         &kp LA(J)         &kp LA(K)         &none                                    &none      &none                                &none             &none             &none             &kp LA(V)         &kp RCTRL         &kp RIGHT_SHIFT
+&none              &none             &none             &none             &none                               &none           &none  &none      &none  &kp LA(ENTER)  &kp LA(SPACE)                    &none             &none             &none             &none             &none
             >;
         };
 
@@ -133,6 +133,26 @@
 &kp CAPSLOCK    &kp A         &kp S         &kp D         &kp F         &kp G         &kp LEFT_BRACKET  &kp M  &kp F5      &kp F6         &kp F7     &kp RIGHT_BRACKET  &kp H         &kp J         &kp K         &kp L         &kp SEMICOLON  &kp MINUS
 &kp LEFT_SHIFT  &kp Z         &kp X         &kp C         &kp V         &kp B                                  &kp F4      &kp PG_UP                                    &kp N         &kp M         &kp COMMA     &kp PERIOD    &kp SQT        &kp RIGHT_SHIFT
 &kp LCTRL       &kp LEFT_ALT  &kp F1        &kp F2        &kp F3                      &kp SPACE         &kp R  &kp G       &kp PAGE_DOWN  &kp ENTER  &trans                           &kp F8        &kp F9        &kp F10       &kp F11        &kp F12
+            >;
+        };
+
+        layer_9 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_10 {
+            bindings = <
+&none           &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(NUMBER_5)  &kp SYSREQ                                                          &none          &kp LG(NUMBER_6)  &kp LG(NUMBER_7)  &kp LG(NUMBER_8)  &kp LG(NUMBER_9)  &kp LG(NUMBER_0)  &kp LG(LS(C))
+&kp LG(TAB)     &none             &none             &none             &kp LG(P)         &none             &kp LC(SYSREQ)                                                      &none          &kp LG(F)         &none             &none             &kp LG(R)         &kp LG(RIGHT)     &none
+&kp LEFT_META   &kp LG(A)         &kp LG(O)         &kp LG(E)         &none             &none             &kp LS(SYSREQ)  &none  &none      &kp LG(LS(MINUS))  &none          &none          &kp LG(D)         &kp LG(LEFT)      &none             &kp LG(N)         &kp LG(S)         &none
+&kp LEFT_SHIFT  &kp LCTRL         &kp LG(Q)         &kp LG(DOWN)      &kp LG(UP_ARROW)  &kp LC(LG(X))                            &none      &kp LG(MINUS)                                    &kp LG(B)         &none             &kp LG(W)         &kp LG(V)         &kp RCTRL         &kp RIGHT_SHIFT
+&none           &none             &none             &none             &none                               &none           &none  &none      &none              &kp LG(ENTER)  &kp LG(SPACE)                    &none             &none             &none             &none             &none
             >;
         };
     };
