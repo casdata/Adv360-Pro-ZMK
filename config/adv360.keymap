@@ -115,7 +115,7 @@
 
         linuxLa {
             bindings = <
-&kp PRINTSCREEN  &kp LG(NUMBER_6)  &kp LG(NUMBER_6)  &kp LG(N7)        &kp LG(N8)        &kp LG(N9)     &kp SYSREQ                                                              &none          &kp LG(F1)  &kp LG(F2)    &kp LG(F3)  &kp LG(F4)  &kp LG(F5)     &kp LG(MINUS)
+&kp PRINTSCREEN  &kp LG(NUMBER_6)  &kp LG(N7)        &kp LG(N8)        &kp LG(N9)        &kp LG(N0)     &kp SYSREQ                                                              &none          &kp LG(F1)  &kp LG(F2)    &kp LG(F3)  &kp LG(F4)  &kp LG(F5)     &kp LG(MINUS)
 &kp LG(TAB)      &kp LG(A)         &kp LG(O)         &kp LG(E)         &kp LG(P)         &none          &kp LC(SYSREQ)                                                          &none          &kp LG(F)   &none         &none       &kp LG(R)   &kp LG(RIGHT)  &none
 &kp LEFT_META    &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)     &kp LS(SYSREQ)  &none  &kp LG(M)      &kp LG(LS(MINUS))  &none          &kp LG(Z)      &kp LG(D)   &kp LG(LEFT)  &none       &kp LG(N)   &kp LG(S)      &none
 &kp LEFT_SHIFT   &kp LCTRL         &kp LG(Q)         &kp LG(DOWN)      &kp LG(UP_ARROW)  &kp LC(LG(X))                         &none          &none                                            &kp LG(B)   &none         &kp LG(W)   &kp LG(V)   &kp RCTRL      &kp RIGHT_SHIFT
