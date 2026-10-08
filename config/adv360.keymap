@@ -166,8 +166,8 @@
         column_width {
             bindings = <
 &trans      &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans         &trans  &trans  &trans         &trans
-&trans      &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans         &trans  &trans  &kp LG(MINUS)  &trans
-&trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LG(EQUAL)  &trans  &trans  &trans         &trans
+&trans      &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans         &trans  &trans  &kp LG(EQUAL)  &trans
+&trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LG(MINUS)  &trans  &trans  &trans         &trans
 &kp LSHIFT  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans         &trans  &trans  &trans         &trans
 &trans      &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans         &trans  &trans  &trans         &trans
             >;
