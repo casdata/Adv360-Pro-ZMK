@@ -51,11 +51,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp PIPE   &kp PLUS       &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp AMPERSAND  &tog 1                                                                  &to 7      &kp AT_SIGN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp ASTERISK  &kp EXCLAMATION
-&kp TAB    &kp SQT        &kp COMMA         &kp PERIOD      &kp P                 &kp Y          &kp CAPS                                                                &to 8      &kp F        &kp G                  &kp C            &kp R              &kp L         &kp BSLH
-&kp ESC    &kp A          &kp O             &kp E           &kp U                 &kp I          &mo 4     &lt 5 HOME  &kp LEFT_ALT      &kp RIGHT_ALT    &lt 2 PAGE_UP  &mo 4      &kp D        &kp H                  &kp T            &kp N              &kp S         &kp MINUS
-&kp LSHFT  &kp SEMICOLON  &kp Q             &kp J           &kp K                 &kp X                                &kp LCTRL         &kp RCTRL                                  &kp B        &kp M                  &kp W            &kp V              &kp Z         &kp RSHFT
-&mo 3      &kp DOLLAR     &kp GRAVE         &kp TILDE       &lt 1 PERCENT                        &kp BSPC  &kp DEL     &lt 6 END         &lt 9 PAGE_DOWN  &kp ENTER      &kp SPACE               &kp HASH               &kp CARET        &kp SLASH          &kp EQUAL     &mo 3
+&kp PIPE   &kp PLUS       &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp AMPERSAND  &tog 1                                                                   &to 7      &kp AT_SIGN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp ASTERISK  &kp EXCLAMATION
+&kp TAB    &kp SQT        &kp COMMA         &kp PERIOD      &kp P                 &kp Y          &kp CAPS                                                                 &to 8      &kp F        &kp G                  &kp C            &kp R              &kp L         &kp BSLH
+&kp ESC    &kp A          &kp O             &kp E           &kp U                 &kp I          &mo 4     &lt 5 PAGE_UP  &kp LEFT_ALT         &kp RIGHT_ALT  &lt 2 HOME  &mo 4      &kp D        &kp H                  &kp T            &kp N              &kp S         &kp MINUS
+&kp LSHFT  &kp SEMICOLON  &kp Q             &kp J           &kp K                 &kp X                                   &kp LCTRL            &kp RCTRL                             &kp B        &kp M                  &kp W            &kp V              &kp Z         &kp RSHFT
+&mo 3      &kp DOLLAR     &kp GRAVE         &kp TILDE       &lt 1 PERCENT                        &kp BSPC  &kp DEL        &lt 6 PAGE_DOWN      &lt 9 END      &kp ENTER   &kp SPACE               &kp HASH               &kp CARET        &kp SLASH          &kp EQUAL     &mo 3
             >;
         };
 
@@ -115,11 +115,11 @@
 
         linuxLa {
             bindings = <
-&kp PRINTSCREEN  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)     &kp SYSREQ                                                              &none          &kp LG(NUMBER_6)  &kp LG(N7)    &kp LG(N8)  &kp LG(N9)  &kp LG(N0)     &kp LG(MINUS)
-&kp LG(TAB)      &none             &none             &none             &kp LG(P)         &none          &kp LC(SYSREQ)                                                          &none          &kp LG(F)         &none         &none       &kp LG(R)   &kp LG(RIGHT)  &none
-&kp LEFT_META    &kp LG(A)         &kp LG(O)         &kp LG(E)         &none             &none          &kp LS(SYSREQ)  &none  &kp LG(M)      &kp LG(LS(MINUS))  &kp LG(F1)     &kp LG(Z)      &kp LG(D)         &kp LG(LEFT)  &none       &kp LG(N)   &kp LG(S)      &none
-&kp LEFT_SHIFT   &kp LCTRL         &kp LG(Q)         &kp LG(DOWN)      &kp LG(UP_ARROW)  &kp LC(LG(X))                         &none          &kp LG(F2)                                       &kp LG(B)         &none         &kp LG(W)   &kp LG(V)   &kp RCTRL      &kp RIGHT_SHIFT
-&kp LG(LS(C))    &none             &none             &none             &none                            &none           &none  &none          &kp LG(F3)         &kp LG(ENTER)  &kp LG(SPACE)                    &none         &none       &none       &none          &none
+&none           &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LG(NUMBER_4)  &kp LG(N5)     &kp SYSREQ                                                         &none          &kp LG(NUMBER_6)  &kp LG(N7)      &kp LG(N8)      &kp LG(N9)      &none          &none
+&kp LG(TAB)     &none             &none             &none             &kp LG(P)         &none          &kp LC(SYSREQ)                                                     &none          &kp LG(F)         &none           &kp LG(C)       &kp LG(R)       &kp LG(L)      &none
+&kp LEFT_META   &kp LG(A)         &kp LG(O)         &kp LG(E)         &none             &none          &kp LS(SYSREQ)   &none  &kp LG(M)      &none        &kp LG(HOME)   &none          &kp LG(D)         &kp LG(LEFT)    &kp LG(T)       &kp LG(N)       &kp LG(S)      &none
+&kp LEFT_SHIFT  &kp LCTRL         &kp LG(Q)         &kp LG(DOWN)      &kp LG(UP_ARROW)  &kp LC(LG(X))                          &none          &none                                      &kp LG(B)         &none           &none           &kp LG(V)       &kp RCTRL      &kp RIGHT_SHIFT
+&none           &kp LEFT_ALT      &none             &mo 10            &mo 11                           &kp LG(LS(ESC))  &none  &none          &kp LG(END)  &kp LG(ENTER)  &kp LG(SPACE)                    &kp LC(LS(N1))  &kp LC(LS(N2))  &kp LC(LS(N3))  &kp RIGHT_ALT  &none
             >;
         };
 
@@ -153,13 +153,23 @@
             >;
         };
 
-        layer_9 {
+        consume_expel {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans                &trans  &trans  &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans                &trans  &trans  &kp LG(RIGHT_BRACKET)  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LG(LEFT_BRACKET)  &trans  &trans  &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans                &trans  &trans  &trans                 &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans                &trans  &trans  &trans                 &trans
+            >;
+        };
+
+        column_width {
+            bindings = <
+&trans      &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans         &trans  &trans  &trans         &trans
+&trans      &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans         &trans  &trans  &kp LG(MINUS)  &trans
+&trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp LG(EQUAL)  &trans  &trans  &trans         &trans
+&kp LSHIFT  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans         &trans  &trans  &trans         &trans
+&trans      &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans         &trans  &trans  &trans         &trans
             >;
         };
     };
